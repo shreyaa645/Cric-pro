@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CricPro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="img">
+        <img class="bg" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png" alt="bg-image">
+    </div>
+    <div class="img2">
+        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-logo.JPG" alt="logo">
+    </div>
+    <!-- Type your code here -->
+    <div class="everything">
+    <div class="main-div">
+
+        <div class="texticc">
+            <h1 class="text-icc"><b>ICC WORLD CUP 2011</b></h1>
+            <h2 class="text-vs">India Vs SriLanka ScoreCard</h2>
+        </div>
+
+        <div class="red-box">
+            <h4 class="red-box-t1">India Innings</h4>
+            <h4 class="red-box-t2">277 - 4 (48.2)</h4>
+        </div>
+
+        <table class="table">
+            <tr class="bord">
+                <th class="left">Batsman</th>
+                <th></th>
+                <th>R</th>
+                <th>B</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>SR</th>
+            </tr>
+
+            <tr>
+                <td onclick="vis1()"><a>Virendar Sehwag</a></td>
+                <td>lbw  b L Malinga</td>
+                <td class="mid"><b>0</td>
+                <td><b>2</td>
+                <td><b>0</td>
+                <td><b>0</td>
+                <td><b>0.00</td>
+            </tr>
+
+            <tr>
+                <td onclick="vis2()"><a>Sachin Tendulkar</a></td>
+                <td>c K Sangakkara b L Malinga</td>
+                <td class="mid"><b>18</td>
+                <td><b>4</td>
+                <td><b>2</td>
+                <td><b>0</td>
+                <td><b>128.57</td>
+            </tr>
+
+            <tr>
+                <td onclick="vis3()"><a>Gautam Gambhir</a></td>
+                <td>b T Perera</td>
+                <td class="mid"><b>97</td>
+                <td><b>122</td>
+                <td><b>9</td>
+                <td><b>0</td>
+                <td><b>79.51</td>
+            </tr>
+
+            <tr>
+                <td onclick="vis4()"><a>Virat Kohli</a></td>
+                <td>c & b Dilshan</td>
+                <td class="mid"><b>35</td>
+                <td><b>49</td>
+                <td><b>4</td>
+                <td><b>0</td>
+                <td><b>71.43</td>
+            </tr>
+
+            <tr>
+                <td onclick="vis()" class="msd-button"><a>MS Dhoni (c & wk)</a></td>
+                <td>not out</td>
+                <td class="mid"><b>91</td>
+                <td><b>71</td>
+                <td><b>8</td>
+                <td><b>2</td>
+                <td><b>115.19</td>
+            </tr>
+
+            <tr>
+                <td onclick="vis5()"><a>Yuvraj Singh</a></td>
+                <td>not out</td>
+                <td class="mid"><b>21</td>
+                <td><b>24</td>
+                <td><b>2</td>
+                <td><b>0</td>
+                <td><b>87.50</td>
+            </tr>
+
+            <tr>
+                <td><b>Extras</td>
+                <td></td>
+                <td class="shift" colspan="5"><b>15 (b 1,lb 6,w 8,nb 0, p0)</td>
+            </tr>
+
+            <tr>
+                <td><b>Total</td>
+                <td></td>
+                <td class="shift" colspan="5"><b>277 (4 wkts)</td>
+            </tr>
+
+            <tr>
+                <td><b>Did not bat</td>
+                <td class="blue" colspan="6"><a onclick="vis6()">Suresh Raina,</a> <a onclick="vis7()">Harbhajan Singh,</a> <a onclick="vis8()">Zaheer Khan,</a> <a onclick="vis9()">Munaf Patel,</a> <a onclick="vis10()">S Sreesanth</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="images1">
+        <img class="msd-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-dhoni.png" alt="dhoni">
+        <img class="seh-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sehwag.png" alt="sehwag">
+        <img class="sac-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sachin.png" alt="sachin">
+        <img class="gau-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-gambhir.png" alt="gambhir">
+        <img class="vir-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-virat-kohli.png" alt="kohli">
+        <img class="yuv-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-yuvraj.png" alt="yuvi">
+    
+        <img class="rai-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-suresh-raina.jpg" alt="raina">
+        <img class="har-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-harbhajan.jpg" alt="bhaji">
+        <img class="zah-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-zaheer-khan.jpg" alt="zk">
+        <img class="mun-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-suresh-raina.jpg" alt="mp">
+        <img class="sre-img" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-suresh-raina.jpg" alt="sreesanth"> 
+
+    </div>
+
+    <footer class="footer"><b>Made with ♥️ by Kalvian</footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
